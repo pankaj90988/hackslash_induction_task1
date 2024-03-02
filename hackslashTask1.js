@@ -12,3 +12,6 @@ function btn(){
     document.querySelector("body").style.backgroundColor="white";
     }
 }
+
+
+///rgere5g5egeg
