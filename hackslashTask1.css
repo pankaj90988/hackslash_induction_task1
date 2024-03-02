@@ -1,0 +1,405 @@
+body{ 
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f8f8ff;
+}
+body::-webkit-scrollbar{
+    background-color: transparent;
+  }
+  body::-webkit-scrollbar-thumb{
+    background: linear-gradient(orange,blue,red);
+    border-radius: 10px;
+  }
+  .Pointer:hover{
+    background: rgba(151, 24, 24, 0.268);
+    cursor: pointer;
+  }
+  
+  a{
+    text-decoration: none;
+    font-weight: 90px;
+  }
+.Coll{
+    margin-left: 15%;
+}
+.bookmark{
+    margin-left: 15%;
+    text-decoration: none;
+}
+.future{
+    
+    margin-top: 50px;
+    font-size: 1.075rem;
+    width: 420px;
+}
+.arrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.arrow-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+.main-container{
+    justify-content: center;
+}
+.container-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+.image-1{
+    margin-top: 50px;
+    margin-left: 10%;
+   transition: transform 3s linear;
+}
+.image-1:hover{
+    animation:hover-effect 2s forwards;
+}
+/* Adding Keyframes for animation to flip the image  the Image */
+@keyframes hover-effect{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform:rotateY(180deg);
+    }
+}
+.AIRPA{
+   height:130px;
+    width: 370px;
+    font-size: 3.1rem;
+}
+.AIRPA:hover{
+  transform: scale(1.05);
+  border-bottom: 1px solid rgb(148, 140, 140);
+}
+.image-1:hover{
+    transform:translateY(45deg);
+}
+
+
+.container-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-top: -20px;
+}
+.sub-cont-2{
+    margin-top: -50px;
+}
+.image-2{
+    margin-top: 18px;
+    margin-left: 10%;
+}
+.image-2:hover{
+    animation:hover-effect 2s forwards;
+}
+/* Adding Keyframes for animation to flip the image  the Image */
+@keyframes hover-effect{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform:rotateY(180deg);
+    }
+}
+.make{
+    height:130px;
+    width: 370px;
+    font-size: 3.1rem;
+    
+}
+.make:hover{
+    transform: scale(1.05);
+    border-bottom: 1px solid rgb(162, 155, 155);
+}
+.container-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+.sub-cont-3{
+    margin-top: -50px;
+}
+.image-3{
+    margin-top: -4px;
+    margin-left: 10%;
+}
+.image-3:hover{
+    animation:hover-effect 2s forwards;
+}
+/* Adding Keyframes for animation to flip the image  the Image */
+@keyframes hover-effect{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform:rotateY(180deg);
+    }
+}
+.innovate{
+    height:130px;
+    width: 370px;
+    font-size: 3.1rem;
+}
+.innovate:hover{
+    transform: scale(1.05);
+    border-bottom: 1px solid rgb(162, 154, 154);
+}
+.container-4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+.sub-cont-4{
+    margin-top: -100px;
+}
+.image-4{
+    margin-top: -4px;
+    margin-left: 10%;
+}
+.image-4:hover{
+    animation:hover-effect 2s forwards ;
+}
+/* Adding Keyframes for animation to flip the image  the Image */
+@keyframes hover-effect{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform:rotateY(180deg);
+    }
+}
+.embrace{
+    margin-top: 10px;
+    height:80px;
+    width: 370px;
+    font-size: 3.1rem;
+}
+.embrace:hover{
+    transform: scale(1.05);
+    border-bottom: 1px solid rgb(157, 149, 149);
+}
+button{
+    margin-left: 15%;
+    width: 200px;
+    height: 55px;
+    margin-top: 70px;
+    font-size: 18px;
+    background: #000;
+    color: white;
+
+
+}
+
+/* Media Query  */
+
+
+@media  (max-width:290px) {
+     body{ 
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-size: cover;
+    }
+    body::-webkit-scrollbar{ 
+        background-color: transparent;
+      }
+      body::-webkit-scrollbar-thumb{
+        background: linear-gradient(orange,blue,red);
+        border-radius: 10px;
+      }
+    .Coll{
+        margin-left: 15%;
+    }
+    .future{
+        
+        margin-top: 50px;
+        font-size: 1.075rem;
+        width: 420px;
+    }
+    .arrow{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    .arrow-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+    }
+    .main-container{
+        width: 500px;
+        display: block;
+    }
+    .container-1{
+        display: block;
+         align-items: center ;
+         margin-left: 50px;
+         margin-right: 10%;
+         width: 430px;
+    }
+    .sub-cont-1{
+        margin-top: -40px;
+    }
+    
+    .image-1{
+        margin-top: 30px;
+        margin-left: 0%;
+       transition: transform 3s linear;
+    }
+    .image-1:hover{
+        animation:hover-effect 2s forwards;
+    }
+    @keyframes hover-effect{
+        from{
+            transform: rotateY(0deg);
+        }
+        to{
+            transform:rotateY(180deg);
+        }
+    }
+    .AIRPA{
+       height:130px;
+        width: 370px;
+        font-size: 3.1rem;
+    }
+    .AIRPA:hover{
+      transform: scale(1.05);
+      border-bottom: 1px solid rgb(148, 140, 140);
+    }
+    .image-1:hover{
+        transform:translateY(45deg);
+    }
+    
+    
+    .container-2{ 
+        display: block;
+        align-items: center;
+        margin-top: -20px;
+        margin-left: 50px;
+        margin-right: 10%;
+    }
+    .sub-cont-2{
+        display: block;
+        margin-top: -50px;
+    }
+    .image-2{
+        margin-top: 18px;
+        margin-left: 0%;
+    }
+    .image-2:hover{
+        animation:hover-effect 2s forwards;
+    }
+    @keyframes hover-effect{
+        from{
+            transform: rotateY(0deg);
+        }
+        to{
+            transform:rotateY(180deg);
+        }
+    }
+    .make{
+        height:130px;
+        width: 370px;
+        font-size: 3.1rem;
+        
+    }
+    .make:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+        border-bottom: 1px solid rgb(162, 155, 155);
+    }
+    .container-3{ 
+        display: block;
+        align-items: center;
+        margin-left: 50px;
+       
+    }
+    .sub-cont-3{
+        margin-top: -50px;
+    }
+    .image-3{
+        margin-top: -4px;
+        margin-left: 0%;
+    }
+    .image-3:hover{
+        animation:hover-effect 2s forwards;
+    }
+    @keyframes hover-effect{
+        from{
+            transform: rotateY(0deg);
+        }
+        to{
+            transform:rotateY(180deg);
+        }
+    }
+    .innovate{
+        height:130px;
+        width: 370px;
+        font-size: 3.1rem;
+    }
+    .innovate:hover{
+        transform: scale(1.05);
+        border-bottom: 1px solid rgb(162, 154, 154);
+    }
+    .container-4{
+        display: block;
+        align-items: center;
+        margin-left: 50px;
+        margin-right: 10%;
+        
+    }
+    
+    .sub-cont-4{
+        margin-top: -50px;
+    }
+    .image-4{
+        margin-top: -4px;
+        margin-left: 0%;
+    }
+    .image-4:hover{
+        animation:hover-effect 2s forwards ;
+    }
+    @keyframes hover-effect{
+        from{
+            transform: rotateY(0deg);
+        }
+        to{
+            transform:rotateY(180deg);
+        }
+    }
+    .embrace{
+        margin-top: 10px;
+        height:80px;
+        width: 370px;
+        font-size: 3.1rem;
+    }
+    .embrace:hover{
+        transform: scale(1.05);
+        border-bottom: 1px solid rgb(157, 149, 149);
+    }
+    button{
+        margin-left: 17%;
+        width: 200px;
+        height: 55px;
+        margin-top: 70px;
+        font-size: 18px;
+        background: #000;
+        color: white;
+    }
+
+}

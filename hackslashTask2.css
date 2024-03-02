@@ -1,0 +1,582 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.2;
+}
+.container-1{
+    width:100%;
+    height: 140px;
+    background-color: #1E90FF;
+}
+#image1{
+    position: absolute;
+    top: 24px;
+    left: 24px;
+}
+.sub-cont-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.help,.explore,.english{
+    margin-top: 24px;
+    margin-right: 25px;
+
+}
+.login{
+    margin-top: 24px;
+    margin-right: 70px;
+    color: white;
+    
+}
+.sub-cont-1 .login a{
+    text-decoration: none;
+}
+.login:hover{
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+}
+.sub2-cont-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+   
+}
+#Our{
+    outline: none;
+    background-color: #1E90FF;
+    border: none;
+    margin-top: 24px;
+    margin-right: 25px;
+    color: white;
+    font-size: larger;
+}
+#Our:hover{
+    border-bottom: 1px solid white;
+}
+#List{
+    outline: none;
+    background-color: #1E90FF;
+    border: none;
+    margin-top: 24px;
+    margin-right: 25px;
+    color: white;
+    font-size: larger;
+}
+#List:hover{
+    border-bottom: 1px solid white;
+}
+#Activity{
+    outline: none;
+    background-color: #1E90FF;
+    border: none;
+    margin-top: 24px;
+    margin-right: 25px;
+    color: white;
+    font-size: larger;
+}
+#Activity:hover{
+    border-bottom: 1px solid white;
+}
+#Partnership{
+    outline: none;
+    background-color: #1E90FF;
+    border: none;
+    margin-top: 24px;
+    margin-right: 25px;
+    color: white;
+    font-size: larger;
+}
+#Partnership:hover{
+    border-bottom: 1px solid white;
+}
+#Publication{
+    outline: none;
+    background-color: #1E90FF;
+    border: none;
+    margin-top: 24px;
+    margin-right: 25px;
+    color: white;
+    font-size: larger;
+}
+#Publication:hover{
+    border-bottom: 1px solid white;
+}
+.search-icon{
+    margin-top: 24px;
+    margin-right: 70px;
+}
+.container-2{
+    width: 100%;
+    height: 60px;
+    background-color: #F5F5F5;
+}
+#Search-2{
+    width: 25%;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 80px;
+    text-align: 20px right;
+    border-radius: 40px;
+    padding-left: 2%;
+    border: none;
+    outline-color: #1E90FF;
+}
+#awasome-search-icon{
+    font-size: 30px;
+    position: relative;
+    top: 8px;
+    margin-left: -45px;
+    cursor:pointer;
+}
+.container-3{
+    width: 100%;
+    height: 140px;
+    background-color: white;
+}
+.sub-cont-3{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+}
+.sub-cont-3 .world{
+    font-weight: 30px;
+}
+.world{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.state,.India{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.sub3-cont-3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+    margin-left: 80px;
+
+}
+.textIndia{
+    margin-left: 10px;
+    font-size: larger;
+    
+}
+.container-4{
+    width: 100%;
+    height: 40px;
+    background-color: #F5F5F5;
+   
+}
+.sub-cont-4{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    
+}
+.description{
+    margin-top: 10px;
+    height: 30px;
+    border-bottom: 1px solid blue;
+}
+
+.document{
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.document:hover{
+    border-bottom: 1px solid blue;
+}
+.assistance{
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.assistance:hover{
+    border-bottom: 1px solid blue;
+}
+.law{
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.law:hover{
+    border-bottom: 1px solid blue;
+}
+.container-5{
+    width: 90%;
+    height: 500px;
+    border-bottom: 1px solid;
+    margin-left: 80px;
+}
+.sub-cont-5{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.properties42{
+    width: 14.5%;
+    height: 140px;
+    border: none;
+    border-radius: 5px;
+    padding: 1%;
+    background-color: #F5F5F5;
+}
+.mandates4{
+    width: 14.5%;
+    height: 140px;
+    border: none;
+    border-radius: 5px;
+    padding: 1%;
+    margin-left: 30px;
+    background-color: #F5F5F5;
+}
+.report151{
+    width: 14.5%;
+    height: 140px;
+    border: none;
+    border-radius: 5px;
+    padding: 1%;
+    margin-left: 30px;
+    background-color: #F5F5F5;
+}
+.both-rati-mandate{
+    width:40%;
+    height: 140px;
+    padding: 1%;
+    margin-left: 30px;
+}
+.ratification{
+    height: 60px;
+    border-bottom: 1px solid;
+
+}
+.sub2-cont-5{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.international-request35{
+    width: 14.5%;
+    height: 140px;
+    border: none;
+    border-radius: 5px;
+    padding: 1%;
+    background-color: #F5F5F5;
+}
+.international-amount861{
+    width: 14.5%;
+    height: 140px;
+    border: none;
+    border-radius: 5px;
+    padding: 1%;
+    margin-left: 30px;
+    background-color: #F5F5F5;
+}
+.none{
+    width: 14.5%;
+    height: 140px;
+    border: none;
+    padding: 1%;
+    margin-left: 30px;
+}
+.both-country-world-heritage{
+    width:40%;
+    height: 140px;
+    padding: 1%;
+    margin-left: 30px;
+}
+.country a{
+    height: 60px;
+    text-decoration: none;
+}
+.country a:hover{
+    text-decoration-line: underline;
+}
+#world-heritage{
+    margin-left: 15px;
+}
+.world-heritage a{
+    text-decoration: none;
+}
+#world-heritage a:hover{
+    text-decoration-line: underline;
+}
+.mandate{
+    height: 70px;
+    margin-top: 30px;
+    border-bottom: 1px solid;
+}
+.container-6{
+    width: 90%;
+    height: 700px;
+    margin-left: 80px;
+    border-bottom: 1px solid;
+}
+.properties-inscribed{
+    width: 300px;
+    height: 60px;
+    border: none;
+    padding-top: 10px;
+    line-height: 1.4;
+}
+.image{
+    border: none;
+}
+.image-culture{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+   
+}
+.overflow{
+    height: 480px;
+    width: 350px;
+    margin-left: 30px;
+    padding: 20px;
+    overflow-y: auto;
+}
+.overflow a{
+    text-decoration: none;
+}
+.overflow a:hover{
+    text-decoration-line: underline;
+}
+.read-more{
+    width: 25%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 25px;
+}
+.overflow::-webkit-scrollbar{
+    background: transparent;
+}
+.overflow::-webkit-scrollbar-thumb{
+    background: rgba(0, 0, 0, 0.779);
+}
+.container-7{
+    width: 90%;
+    height: 450px;
+    border-bottom: 1px solid;
+    margin-left: 80px;
+}
+.tentative-conservation-report{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    line-height: 30px;
+}
+.tentative{
+    width: 40%;
+}
+.tentative-more{
+    width: 60px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: #f5f5f59b;
+    cursor: pointer;
+}
+.tentative-more:hover{
+     background-color: #7872729e;
+}
+.consevation-report{
+    width: 40%;
+    margin-left: 160px;
+}
+.container-8{
+    width: 90%;
+    height: 420px;
+    border-bottom: 1px solid;
+    margin-left: 80px;
+}
+.Activities-image{
+    padding-top: 20px;
+}
+.sub-cont-8{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.rapid-text,.skill-text,.enhancing-text,.heritage-text{
+    width:310px;
+    height:70px;
+}
+
+.container-9{
+    width: 90%;
+    height: 420px;
+    border-bottom: 1px solid;
+    margin-left: 80px;
+}
+.News-image{
+    padding-top: 20px;
+}
+.sub-cont-9{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.danuble-text,.cultural-africa-text,.india-text,.bird-text{
+    width:310px;
+    height:70px;
+}
+
+.container-10{
+    width: 90%;
+    height: 420px;
+    border-bottom: 1px solid;
+    margin-left: 80px;
+}
+.Events-image{
+    padding-top: 20px;
+}
+.sub-cont-10{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.kathmandu-text,.workshop-text,.road-text,.training-text{
+    width:310px;
+    height:70px;
+}
+.container-11{
+    width: 90%;
+    height: 420px;
+    margin-left: 80px;
+}
+.both-within-information{
+     display: flex;
+     flex-direction: row;
+     height: 370px;
+     margin-top: 40px;
+     margin-left: 5px;
+     border-bottom: 1px solid;
+}
+.other-source{
+    margin-left: 130px;
+}
+.container-12{
+    width: 100%;
+    height: 1700px;
+    background-color: #F5F5F5;
+    border-top: 1px solid;
+}
+.unesco-image-3{
+    margin-top: 35px;
+    margin-left: 6%;
+}
+.sub-cont-12{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+    line-height: 40px;
+}
+.commitee-sessions{
+    height: 270px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+.the-list{
+    padding: 20px;
+    border-top: 1px solid;
+    
+}
+.parterships{
+    height: 180px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+.funding{
+    height: 140px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+.sub1-cont-12{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 40px;
+}
+.general-assembly{
+    position: relative;
+    top:-30px;
+    height: 220px;
+    border-bottom: 1px solid;
+}
+.reporting-monitoring{
+    padding: 20px;
+    border-top: 1px solid;
+}
+.activities{
+    position: relative;
+    top:-125px;
+    left: -30px;
+    width: 160px;
+    height: 150px;
+    border-bottom: 1px solid;
+}
+.more{
+    position: relative;
+    top: -160px;
+    left: -90px;
+    height: 200px;
+}
+.sub2-cont-12{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 40px;
+    height: 240px;
+}
+.about-world-heritage{
+    position: relative;
+    top: -250px;
+    left: -170px;
+}
+.publications{
+    position: relative;
+    top: -430px;
+    left: -80px;
+}
+.sub3-cont-12{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 40px;
+    border-bottom: 1px solid;
+}
+.UNESCO{
+    height: 320px;
+    border-top: 1px solid;
+}
+.terms-of-use{
+    padding: 20px;
+    border-top: 1px solid;
+}
+.policies{
+    height: 290px;
+    border-top: 1px solid;
+}
+.follow-us{
+    height: 290px;
+    border-top: 1px solid;
+}
+.sub4-cont-12{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.Centre-1992{
+    margin-left: 40px;
+}

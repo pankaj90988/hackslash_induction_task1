@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+    body{
+           display: flex;
+            flex-direction:column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height:100%;
+            margin: 0;
+            margin-left:0px;
+          
+      }
+    body::-webkit-scrollbar{
+               background-color:transparent;
+            }
+    .container{
+      background:linear-gradient(to bottom right, #dce2e342 10%, #d3c8cd44 77%);
+          
+         align-items:center;
+          text-align:center;
+          border-radius:10px;
+          width:250px;
+          height:300px;
+          backdrop-filter: blur;
+          position: absolute;
+          box-shadow: inset 5px 5px 5px;
+          position: absolute;
+          top: 25%;
+          left: 40%;
+    }
+    #main-head{
+      position:absolute;
+      top: 15%;
+      left: 41%;
+    }
+    #sub-head{
+       text-align:center;
+       margin-top:0px;
+       padding:30px;
+    }
+     button{
+           padding: 5px 4px;
+            font-size: 16px;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            background-color: #3399ff;
+    }
+    .inputBox input{
+    margin:10px;
+    padding:5px;
+    background:linear-gradient(to bottom right, #33ccff70 10%, #ff99cc72 77%);
+    outline:none;
+    border-radius:5px;
+    backdrop-filter:blur;
+    }
+    .dont{
+      position: absolute;
+      top:77%;
+      color: rgb(236, 19, 19);
+      font-weight:bold;
+      background-color: rgba(255, 228, 196, 0.886);
+      backdrop-filter: blur;
+    }
+    .First{
+      position: absolute;
+      top:82%;
+      text-decoration: none;
+      font-weight:bold;
+      background-color: rgba(255, 228, 196, 0.886);
+      backdrop-filter: blur;
+      color: rgb(16, 16, 216);
+    }
+    </style>
+</head>
+<body>
+      <img src="background-img2.jpg" alt="df"height="100%"width="100%">
+ <h2 id="main-head">Login to Panku form</h3>
+ <br>
+ <br>
+ <form>
+    <div class="container">
+   <h3 id="sub-head">Login Form</h3>
+   <div class="inputBox"><input type="text"id="username"placeholder="Username">
+   </div>
+   <div class="inputBox"><input type="password"id="password"placeholder="Password">
+   </div>
+  <button onclick="alert('Login sucessfully button is 1 time clicked by user')">Sign In</button>
+  </form>
+   
+    <p>Forgot your password?</p>
+    <a href="https://www.google.com">click here!</a>
+    </div>
+    <p class="dont">If you don't have accout ?</p>
+    <a href="Sign Up page.html"target="_blank" class="First">Sign Up First</a>
+    </body>
+   </html>
