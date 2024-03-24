@@ -1,5 +1,5 @@
 body{ 
-    font-family:'Roboto Slab';
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #f8f8ff;
 }
 body::-webkit-scrollbar{
@@ -9,10 +9,10 @@ body::-webkit-scrollbar{
     background: linear-gradient(orange,blue,red);
     border-radius: 10px;
   }
-  .Pointer:hover{
+   .Pointer:hover{  
     background: rgba(151, 24, 24, 0.268);
     cursor: pointer;
-  }
+   } 
   
   a{
     text-decoration: none;
@@ -204,9 +204,9 @@ button{
 /* Media Query  */
 
 
-@media  (max-width:440px) {
+@media  (max-width:320px) {
      body{ 
-        font-family:'Roboto Slab'
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         background-size: cover;
     }
     body::-webkit-scrollbar{ 
@@ -217,7 +217,7 @@ button{
         border-radius: 10px;
       }
     .Coll{
-        margin-left: 17%;
+        margin-left: 15%;
     }
     .future{
         

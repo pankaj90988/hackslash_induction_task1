@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI RPA Automation</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .rpa{
+            background-color: rgba(0, 0, 0, 0.888);
+            border:1px solid rgba(0, 0, 0, 0.904);
+            color: white;
+            padding: 10px;
+        }
+        .rpa-image{
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+           border:none;
+        }
+        .what{
+            padding: 15px;
+        }
+        .what h1:hover{
+            transform:scale(1.01);
+            text-shadow: 0 0 2px white;
+        }
+        .para-1{
+            font-size: 1.5rem;
+            
+        }
+        .para-1:hover{
+            transform: scale(1.01);
+        }
+       .rpa-image img{
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+       }
+       .about{
+        display: flex;
+        flex-direction: row;
+       }
+       .Button{
+        margin-left: 15px;
+        padding: 10px;
+       }
+       .about .explore Button{
+        background-color: blue;
+        color: white;
+       }
+
+       .about .subscribe Button:hover{
+         background-color: blue;
+         color: white;
+         border-radius: 5px;
+       }
+       .bookmark-explanation{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       }
+       .bookmark{
+        padding: 15px;
+        /* border: 1px solid; */
+        width: 30%;
+        background: linear-gradient(to right, #f4a460 0%, #98fb98 100%);
+       }
+       .bookmark a{
+        text-decoration: none;
+       }
+       .bookmark a:hover{
+        text-decoration-line: underline;
+       }
+       #c1,#c2,#c3,#c4,#c5,#c6{
+        margin-left: 5%;
+       }
+       .explanation{
+        width: 80%;
+        height: 70vh;
+        padding: 15px;
+        border-left: 1px dotted;
+        overflow-y: auto;
+        background: linear-gradient(to right, #20b2aa 20%, #F0E68C90 90%);
+       }
+       .para-2{
+        width: 70%;
+        margin-left: 5%;
+        border: none;
+       }
+       .explanation::-webkit-scrollbar{
+       background-color: transparent;
+       }
+       .xyz{
+        padding: 0.5%;
+        border-top: 1px dotted;
+       }
+       /* Media query */
+
+       @media (max-width:520px){
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .rpa{
+            background-color: rgba(0, 0, 0, 0.888);
+            border:1px solid rgba(0, 0, 0, 0.904);
+            color: white;
+            padding: 10px;
+        }
+        .rpa-image{
+            position: relative;
+            display: block;
+            /* flex-direction: row; */
+            /* justify-content: space-between; */
+            background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+           border: none;
+        }
+        .what{
+            border: none;
+            padding: 15px;
+        }
+        .what h1:hover{
+            transform:scale(1.01);
+            text-shadow: 0 0 2px white;
+        }
+        .para-1{
+            font-size: 1.5rem;
+            
+        }
+        .robot{
+            padding-top: 1.3%;
+        }
+        .para-1:hover{
+            transform: scale(1.01);
+        }
+       .rpa-image img{
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+       }
+       .about{
+        display: flex;
+        flex-direction: row;
+       }
+       .Button{
+        margin-left: 15px;
+        padding: 10px;
+       }
+       .about .explore Button{
+        background-color: blue;
+        color: white;
+       }
+
+       .about .subscribe Button:hover{
+         background-color: blue;
+         color: white;
+         border-radius: 5px;
+       }
+       .bookmark-explanation{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       }
+       .bookmark{
+        padding: 15px;
+        border: none;
+       }
+       .explanation{
+        width: 80%;
+        height: 70vh;
+        padding: 15px;
+        border-left: 1px dotted;
+        overflow-y: auto;
+       }
+        
+       }
+    </style>
+</head>
+<body>
+ <div class="rpa">
+     <h1>Robotic Process Automation (RPA)</h1>
+ </div>
+    <div class="rpa-image">
+        <div class="what-about">
+            <div class="what">
+              <h1>What is RPA?</h1>
+                <p class="para-1">Robotic process automation (RPA), also known as software robotics, uses intelligent automation technologies to perform repetitive office tasks of human workers,
+                    such as extracting data, filling in forms, moving files and more.
+                </p>
+            </div>
+            <div class="about">
+                <div class="explore">
+                   <button class="Button">Explore IBM's RPA solution -></button>
+                </div>
+                <div class="subscribe">
+                    <button class="Button">Subscribe for AI pdates   -></button>
+                </div>
+            </div>
+        </div>
+            <div class="robot">
+               <img src="robot image.jpg" alt="rpa-image"width="451"height="320">
+            </div>
+    </div>
+        <div class="bookmark-explanation">
+            <div class="bookmark">
+               <a href="#c1"><h4>RPA and intelligent automation</h4></a>
+               <a href="#c2"><h4>RPA and artificial inteligence</h4></a>
+               <a href="#c3"><h4>How does Rpa works</h4></a>
+               <a href="#c4"><h4>The benefits of RPA</h4></a>
+               <a href="#c5"><h4>Challenges of RPA</h4></a>
+               <a href="#c6"><h4>RPA use case</h4></a>
+            </div>
+            <div class="explanation">
+                  <div>
+                     <h1 id="c1">RPA and intelligent automation</h1>
+                  </div>
+                
+                    <div class="para-2"><p>In order for RPA tool in the marketplace to remain competitive, they will need to move 
+                        beyond task automation and explain their offerings to include intelligent automation(IA).
+                        This type of automation expands on RPA functionality by incorporating sub-disciplines of 
+                        artificial intelligence, like machine learning, natural language processing, and computer vision.
+                     </p>
+                    </div>
+                    <div class="para-2">
+                        <p>Intelligent process automation demands more than the simple rule-based systems of 
+                     RPA. You can think of RPA as "doing" task, while AI and ML encompass more of the 
+                     "thinking" and "learning" respectively. It trains algorithms using data so that the 
+                     software can perform task in a quiker, morre efficient way.</p></div>
+                     <div>
+                        <h1 id="c2">RPA and artificial inteligence</h1>
+                     </div>
+                   <div>
+                       <div class="para-2">
+                        <p>Robotics process automation is often mistaken for artificial intelligence (AI), but 
+                            the two are distinctly different, AI combines cognitive automation, machine learning(ML),
+                            natural language processing (NPL), reasoning, hypothesis generation and analysis. The critical
+                            difference is that RPA is process-driven, whereas AI is data-driven. RPA bots can only follow 
+                            the processes defined by an end user, while AI bots use machine learning  to recognize pattern in
+                            data, in particular unstructured data , and learn over time.Put differently, AI is intentend to 
+                            simulate human intelligence, while RPA is solely for replicating human direct tasks. 
+                        </p>
+                       </div>
+                       <div class="para-2">
+                           <p>While the use of artificial intelligence and RPA tools minimize the need for human intervation'
+                            the way in which they automate process is different. That said RPA and AI also complement each other well.
+                            AI can help RPA automate task more fully and handle more complex use cases.RPA also enables AI insight 
+                            tp be actioed or more quikly instead of waiting on manual implementations.
+                           </p>
+                        </div>
+                        <div>
+                            <h1 id="c3">How does Rpa works</h1>
+                         </div>
+                       <div>
+                           <div class="para-2">
+                            <p>Robotic process automation (RPA) is the use of computer software ‘robots’ to handle repetitive, rule-based
+                                 digital tasks such as filling in the same information in multiple places, reentering data, or copying and
+                                  pasting. It enables organizations to give more and more of the mundane admin work over to machines that 
+                                  can handle it well and in full compliance.This enables an organization to achieve cost efficiencies by 
+                                  streamlining processes and enhancing accuracy. As importantly, it enables humans to focus on work that 
+                                  requires judgement, creativity and interpersonal skills rather than on routine processes. You can read 
+                                  our previous blog post for more info on what RPA is; this time, we delve into how RPA works.
+                            </p>
+                           </div>
+                           <div class="para-2">
+                               <p>RPA works by accessing information from your existing IT systems. There are numerous ways that RPA tools 
+                                can integrate with your applications. One option is through connections to databases and enterprise web services
+                                 in the backend. Another is through front end or desktop connections that take multiple forms.Which way is best?
+                                 It depends on your enterprise and the needs that the solution will address. With backend connectivity, your automation
+                                  accesses systems and services under the control of a process automation server. This is most commonly used for
+                                   unattended automation, where your software robots carry out back-office tasks such as processing insurance claims at
+                                    scale and with minimal to no employee intervention.
+                              </p>
+                            </div>
+                            <div>
+                                <h1 id="c4">The benefits of RPA</h1>
+                             </div>
+                           <div>
+                               <div class="para-2">
+                                <p>With RPA, your business can automate processes and tasks to save time and avoid common human errors. RPA software works
+                                     by configuring bots to perform tasks that would normally be done by humans. Bots can be taught to click and type across 
+                                     applications, as well as be configured to perform more complex tasks, without the need for human intervention. RPA benefits
+                                     your business by automating various activities, including transferring data, updating customer profiles, data entry,
+                                     managing stock, and other more complex tasks.
+                                    Here are seven key benefits of robotic process automation:
+                                    <h4>Save time</h4>
+                                    Repetitive administrative tasks are a common part of many business processes. RPA allows your business to automate and 
+                                    perform repetitive tasks with quick, robotic speed. Also, your company and employees benefit from RPA by being able to spend 
+                                    more time on sensitive and complex tasks.
+                                    <h4>Increase ROI</h4>
+                                    RPA tools are more efficient at managing repetitive tasks than humans, and they help your business improve work productivity. 
+                                    That’s why one of the greatest benefits of RPA is its positive impact on ROI. With robotic process automation, your business 
+                                    can improve several processes and collect significant amounts of qualitative and quantitative data over time, which helps to
+                                    inform and manage costs more efficiently.
+                                   <h4> Eliminate human error</h4>
+                                    Realistically, no matter how skilled a person is in their role, human error and fatigue are always factors to be considered. 
+                                    With RPA, automated bots never get tired, so tasks are performed accurately, as they’re meant to, each time.
+                                </p>
+                               </div>
+                               <div class="para-2">
+                                   <p>
+                                    <h4>Customer satisfaction:</h4> 
+                                    By freeing up your customer-service personnel from forms and tabulations, you’re giving them more time 
+                                    for attentive customer service. The result is an improved customer experience and a much greater ability to meet the requirements 
+                                    of service-level agreements.
+                                    <h4>Productivity:</h4> 
+                                    Compared with humans, software robots can complete the same tasks about five times faster. They also work 24/7.
+                                    Work will be getting done more quickly, which creates capacity for more work to get done. Higher productivity can 
+                                    reduce expenses as well as create room for more rapid growth.
+                                    <h4>Accuracy:</h4>
+                                    Robots are 100 percent accurate, 100 percent consistent, and 100 percent compliant with policies. The more work you turn over to 
+                                    robots, the fewer clerical errors you experience, and the more time you save that used to be spent correcting those errors.
+                                     Eliminating the little mistakes humans make can have an enormous culminative impact on your cost base and customer satisfaction levels.
+                                    Resource utilization: Offloading the mundane tasks to robots frees up your team to handle the tasks that add the most value to your business.
+                                     What’s more, a robotic workforce is fully scalable, enabling organizations to respond to a spike in demand or a lull. That’s good for
+                                      customer service and helps ease HR headaches.
+                                    </p>
+                                </div>
+                                <div>
+                                    <h1 id="c5">Challenges of RPA</h1>
+                                 </div>
+                               <div>
+                                   <div class="para-2">
+                                    <p>
+                                        <h4>1. Process identification and design:</h4> 
+                                        One of the main challenges in implementing RPA is identifying and designing the processes that can be automated. This requires a 
+                                        thorough understanding of the organization's workflows and systems, as well as knowledge of RPA tools and capabilities.
+                                        <h4>2. Data quality and availability:</h4> 
+                                        RPA relies on accurate and consistent data to automate tasks. If the data is incomplete or inconsistent, the RPA system 
+                                        may not function properly or produce inaccurate results.
+                                        <h4>3. Integration with legacy systems:</h4> 
+                                        RPA needs to interact with legacy systems, which may have outdated interfaces or require complex integration. Ensuring that the
+                                         RPA system can interact with legacy systems can be a significant challenge.
+                                        <h4>4. Change management:</h4> 
+                                        Implementing RPA can require changes to existing processes, which can be difficult for employees to adapt to. It is important to
+                                         have a change management plan in place to help employees understand and adopt the new processes.
+                                       
+                                   </div>
+                                   <div class="para-2">
+                                       <p>
+                                        <h4>5.Security and compliance:</h4> 
+                                        RPA involves the processing and storage of sensitive data, which can raise concerns around security and compliance. Ensuring that
+                                         the RPA system is secure and compliant with relevant regulations is a critical challenge.
+                                        <h4>6. Scalability and maintenance:</h4> 
+                                        As RPA systems become more complex and handle a greater volume of processes, they can become more difficult to maintain and scale. 
+                                        Ensuring that the RPA system is scalable and easy to maintain is an important challenge to consider..
+                                    </p>
+                                       </p>
+                                    </div>
+                                    <div>
+                                        <h1 id="c6">RPA use case</h1>
+                                     </div>
+                                   <div>
+                                       <div class="para-2"><p>In order for RPA tool in the marketplace to remain competitive, they will need to move 
+                                           beyond task automation and explain their offerings to include intelligent automation(IA).
+                                           This type of automation expands on RPA functionality by incorporating sub-disciplines of 
+                                           artificial intelligence, like machine learning, natural language processing, and computer vision.
+                                        </p>
+                                       </div>
+                                       <div class="para-2">
+                                           <p>Intelligent process automation demands more than the simple rule-based systems of 
+                                        RPA. You can think of RPA as "doing" task, while AI and ML encompass more of the 
+                                        "thinking" and "learning" respectively. It trains algorithms using data so that the 
+                                        software can perform task in a quiker, morre efficient way.</p></div>
+                  </div>
+            </div>
+           
+        </div>
+           
+        </div>
+</div>
+</div>
+</div>
+        <div class="xyz">
+            <p>Intelligent process automation demands more than the simple rule-based systems of 
+         RPA. You can think of RPA as "doing" task, while AI and ML encompass more of the 
+         "thinking" and "learning" respectively. It trains algorithms using data so that the 
+         software can perform task in a quiker, morre efficient way.</p>
+        </div>
+</body>
+</html>
