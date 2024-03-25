@@ -17,6 +17,7 @@ body::-webkit-scrollbar{
   a{
     text-decoration: none;
     font-weight: 90px;
+    color:black;
   }
 .Coll{
     margin-left: 15%;
