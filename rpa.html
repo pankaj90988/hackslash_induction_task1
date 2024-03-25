@@ -16,6 +16,21 @@
             color: white;
             padding: 10px;
         }
+        h1{
+            opacity: 0;
+            animation: slideFromLefth1 2s ease forwards;
+        }
+        @keyframes slideFromLefth1 {
+        0%{
+            opacity: 0;
+            transform: translateY(-100%);
+        }
+        100%{
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+       }
         .rpa-image{
             position: relative;
             display: flex;
@@ -28,7 +43,19 @@
         }
         .what{
             padding: 15px;
+            opacity: 0;
+            animation: slideFromLeftwhat 2s ease forwards;
         }
+        @keyframes slideFromLeftwhat {
+        0%{
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
+       }
         .what h1:hover{
             transform:scale(1.01);
             text-shadow: 0 0 2px white;
@@ -47,6 +74,18 @@
        .about{
         display: flex;
         flex-direction: row;
+        opacity: 0;
+        animation: slideFromLeftabout 1.5s ease forwards;
+       }
+       @keyframes slideFromLeftabout {
+        0%{
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
        }
        .Button{
         margin-left: 15px;
@@ -62,16 +101,47 @@
          color: white;
          border-radius: 5px;
        }
+       .robot{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 2rem;
+        animation: slideFromLeftrobo 1.5s ease forwards;
+        opacity: 0;
+       }
+       @keyframes slideFromLeftrobo {
+        0%{
+            opacity: 0;
+            transform: translateX(110%);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
+        
+       }
        .bookmark-explanation{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        background: linear-gradient(to right, #f4a460 0%, #98fb98 100%);
        }
        .bookmark{
         padding: 15px;
-        /* border: 1px solid; */
         width: 30%;
-        background: linear-gradient(to right, #f4a460 0%, #98fb98 100%);
+        animation: slideFromLeftmark 1.5s ease forwards;
+        opacity: 0;
+       }
+       @keyframes slideFromLeftmark {
+        0%{
+            opacity: 0;
+            transform: translateY(110%);
+        }
+        100%{
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
        }
        .bookmark a{
         text-decoration: none;
@@ -94,6 +164,19 @@
         width: 70%;
         margin-left: 5%;
         border: none;
+        opacity: 0;
+        animation: slideFromLeftpara 2s ease forwards;
+       }
+       @keyframes slideFromLeftpara {
+        0%{
+            opacity: 0;
+            transform: translateX(110%);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
+        
        }
        .explanation::-webkit-scrollbar{
        background-color: transparent;
@@ -129,6 +212,7 @@
         .what{
             border: none;
             padding: 15px;
+
         }
         .what h1:hover{
             transform:scale(1.01);
@@ -139,7 +223,8 @@
             
         }
         .robot{
-            padding-top: 1.3%;
+            object-fit:fill;
+            padding: 1.3%;
         }
         .para-1:hover{
             transform: scale(1.01);
@@ -151,6 +236,19 @@
        .about{
         display: flex;
         flex-direction: row;
+        opacity: 0;
+        animation: slideFromLeftpara 2s ease forwards;
+       }
+       @keyframes slideFromLeftpara {
+        0%{
+            opacity: 0;
+            transform: translateX(110%);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
+        
        }
        .Button{
         margin-left: 15px;
@@ -208,7 +306,7 @@
             </div>
         </div>
             <div class="robot">
-               <img src="robot image.jpg" alt="rpa-image"width="451"height="320">
+               <img src="robot image.jpg" alt="rpa-image">
             </div>
     </div>
         <div class="bookmark-explanation">
