@@ -16,9 +16,10 @@ body::-webkit-scrollbar{
   
   a{
     text-decoration: none;
-    font-weight: 90px;
+    font-weight: 400;
     color:black;
   }
+  /* Coll heading */
 .Coll{
     margin-left: 15%;
     opacity: 0;
@@ -38,7 +39,7 @@ body::-webkit-scrollbar{
     
     margin-top: 50px;
     font-size: 1.075rem;
-    width: 420px;
+    width: 25rem;
 }
 .arrow{
     display: flex;
@@ -118,7 +119,7 @@ img:hover{
     transform:translateY(45deg);
 }
 
-
+/* Container 2 */
 .container-2{
     display: flex;
     flex-direction: row;
@@ -180,6 +181,7 @@ img:hover{
     transform: scale(1.05);
     border-bottom: 1px solid rgb(162, 155, 155);
 }
+/* Container3 */
 .container-3{
     display: flex;
     flex-direction: row;
@@ -239,6 +241,7 @@ img:hover{
     transform: scale(1.05);
     border-bottom: 1px solid rgb(162, 154, 154);
 }
+/* Container 4 */
 .container-4{
     display: flex;
     flex-direction: row;
@@ -324,7 +327,7 @@ button{
 /* Media Query  */
 
 
-@media  (max-width:320px) {
+@media  (max-width:520px) {
      body{ 
         font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         background-size: cover;
@@ -338,7 +341,19 @@ button{
       }
     .Coll{
         margin-left: 15%;
+        opacity: 0;
+        animation: slideFromLeftcoll 1.5s ease forwards;
     }
+    @keyframes slideFromLeftcoll {
+        0%{
+            opacity: 0;
+            transform: translateY(-100%);
+        }
+        100%{
+            opacity: 1;
+            transform: translateY(0);
+        }
+       }
     .future{
         
         margin-top: 50px;
@@ -361,6 +376,7 @@ button{
         width: 500px;
         display: block;
     }
+    /* Container 1 */
     .container-1{
         display: block;
          align-items: center ;
@@ -370,14 +386,37 @@ button{
     }
     .sub-cont-1{
         margin-top: -40px;
+        opacity: 0;
+        animation: slideFromLeft1 1.3s ease forwards;
     }
-    
+    @keyframes slideFromLeft1 {
+        0%{
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
+       }
     .image-1{
         margin-top: 30px;
         margin-left: 0%;
        transition: transform 3s linear;
+       opacity: 0;
+       animation: slideFromLeft11 1.1s ease forwards;
     }
-    .image-1:hover{
+    @keyframes slideFromLeft11 {
+        0%{
+            opacity: 0;
+            transform: translateX(110%);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
+       }
+    img:hover{
         animation:hover-effect 2s forwards;
     }
     @keyframes hover-effect{
@@ -401,7 +440,7 @@ button{
         transform:translateY(45deg);
     }
     
-    
+    /* Container 2 */
     .container-2{ 
         display: block;
         align-items: center;
@@ -412,12 +451,36 @@ button{
     .sub-cont-2{
         display: block;
         margin-top: -50px;
+        opacity: 0;
+        animation: slideFromLeft2 1.5s ease forwards;
     }
+    @keyframes slideFromLeft2 {
+        0%{
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
+       }
     .image-2{
         margin-top: 18px;
         margin-left: 0%;
+        opacity: 0;
+        animation: slideFromLeft22 1.5s ease forwards;
     }
-    .image-2:hover{
+    @keyframes slideFromLeft22 {
+        0%{
+            opacity: 0;
+            transform: translateX(110%);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
+       }
+    img:hover{
         animation:hover-effect 2s forwards;
     }
     @keyframes hover-effect{
@@ -447,12 +510,36 @@ button{
     }
     .sub-cont-3{
         margin-top: -50px;
+        opacity: 0;
+        animation: slideFromLeft3 1.7s ease forwards;
     }
+    @keyframes slideFromLeft3 {
+        0%{
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
+       }
     .image-3{
         margin-top: -4px;
         margin-left: 0%;
+        opacity: 0;
+        animation: slideFromLeft33 1.7s ease forwards;
     }
-    .image-3:hover{
+    @keyframes slideFromLeft33 {
+        0%{
+            opacity: 0;
+            transform: translateX(110%);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
+       }
+    img:hover{
         animation:hover-effect 2s forwards;
     }
     @keyframes hover-effect{
@@ -472,6 +559,7 @@ button{
         transform: scale(1.05);
         border-bottom: 1px solid rgb(162, 154, 154);
     }
+    /* Container 4 */
     .container-4{
         display: block;
         align-items: center;
@@ -482,12 +570,36 @@ button{
     
     .sub-cont-4{
         margin-top: -50px;
+        opacity: 0;
+        animation: slideFromLeft4 1.9s ease forwards;
     }
+    @keyframes slideFromLeft4 {
+        0%{
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
+       }
     .image-4{
         margin-top: -4px;
         margin-left: 0%;
+        opacity: 0;
+        animation: slideFromLeft44 1.9s ease forwards;
     }
-    .image-4:hover{
+    @keyframes slideFromLeft44 {
+        0%{
+            opacity: 0;
+            transform: translateX(110%);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
+       }
+    img:hover{
         animation:hover-effect 2s forwards ;
     }
     @keyframes hover-effect{
